@@ -26,4 +26,4 @@ These are the factors I took into consideration when choosing a template.
 
 ## Bill of materials
 **Keyboard parts**
-- 5x PCB (I only need 2x, but I can order more than 5x at jlcpcb)
+- 5x PCB (I only need 2, but I can order 5 or more only at jlcpcb)
