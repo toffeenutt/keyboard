@@ -1,4 +1,7 @@
-# Background
+# My first split keyboard
+Jan 31, 2024 - 
+
+## Background
 I wanted to solve the problem of shoulders and back curling when using a regular keyboard.  
 I found out about the split keyboard and decided to make my own.
 
@@ -11,3 +14,5 @@ And I found out that I could arrange number keys and function keys like numpad o
 So I chose 3*6 layout.
 
 The reason I didn't choose the 3*5 layout is that it's difficult to use shortcuts if the modifier keys are not separated.
+
+## Template
