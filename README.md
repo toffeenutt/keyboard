@@ -25,5 +25,17 @@ These are the factors I took into consideration when choosing a template.
 3. Build guide
 
 ## Bill of materials
-**Keyboard parts**
-- 5x PCB (I only need 2, but I can order 5 or more only at jlcpcb)
+  |Component|Required|Ordered|Amount|
+  |-|-|-|-|
+  |PCB|2|5|$19.60 (₩27,161)|
+  |Microcontrollers (STM32F401CCU6)|2|2|$7.63 (₩10,571)|
+  |Switches (Choc v1 Pink)|42|60|$28.95 (₩40,100)|
+  |Keycaps (CHOSFOX Choc white transparent)|42|50|$24.20 (₩33,517)|
+  |TRRS jacks (PJ320A DIP)|2|10|$3.31 (₩4,589)|
+  |TRRS cable|1|1|$5.49 (₩7,600)|
+  |Type-C cable|1|0|-|
+
+**A total of $89.18 (₩123,538)**. (And additional about $8 for soldering equipment)
+
+  
+  
