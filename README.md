@@ -22,7 +22,8 @@ So I selected [**cantor keyboard**](https://github.com/diepala/cantor)(Classic).
 These are the factors I took into consideration when choosing a template.
 1. Simple
 2. Diodeless
-3. Build guide
+3. Easy to build
+4. Easy to flash the firmware
 
 ## Bill of materials
   |Component|Required|Ordered|Amount|
@@ -37,5 +38,26 @@ These are the factors I took into consideration when choosing a template.
 
 **A total of $89.18 (₩123,538)**. (And additional about $8 for soldering equipment)
 
-  
-  
+## Build
+I just followed this [build guide](https://github.com/diepala/cantor/blob/main/doc/build_guide.md).  
+Actually, it wasn't difficult at all.  
+
+## Flash the firmware and test
+I followed this [qmk docs](https://docs.qmk.fm/#/newbs).
+And I used wsl2.  
+
+For test, I built the firmware with the default keymap.  
+But, a problem arose during the process of flashing the firmware.  
+When I ran the `qmk flash` command, the bootloader was not detected.  
+The USB device connected to Windows could not be used in WSL.  
+So, I found [how to use usb device connected to Windows in WSL](https://learn.microsoft.com/en-US/windows/wsl/connect-usb).  
+I succeeded in flashing the firmware on WSL using this method.  
+
+And after some testing, I found out the following:  
+- Firmware must be flashed on both controllers
+- When the left controller is connected to a computer, it operates with the keymap set in the left controller's firmware.
+- When the right controller is connected to a computer, it operates with the keymap set in the right controller's firmware.
+
+This means I need to flash the firmware on both devices, but applying different key maps to both allow me to easily switch to a different key map by switching connections.  
+
+Anyway, all keys worked normally.
