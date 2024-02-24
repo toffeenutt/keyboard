@@ -1,5 +1,5 @@
 # My first split keyboard
-Canter keyboard production log
+Canter keyboard making log
 
 ## Background
 I wanted to solve the problem of shoulders and back curling when using a regular keyboard.  
