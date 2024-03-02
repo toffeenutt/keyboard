@@ -17,8 +17,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                             _______, KC_BSPC, _______,            _______, KC_SPC,  KC_INS
     ),
     [NAV] = LAYOUT_split_3x6_3(
-        KC_ESC,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                              XXXXXXX, KC_BRIGHTNESS_DOWN, KC_BRIGHTNESS_UP, KC_UP,   KC_RGHT, KC_PGUP,
-        _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                              XXXXXXX, KC_HOME, KC_LEFT, KC_DOWN, KC_AUDIO_VOL_UP, KC_PGDN,
+        KC_ESC,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                              KC_BSPC, KC_BRIGHTNESS_DOWN, KC_BRIGHTNESS_UP, KC_UP,   KC_RGHT, KC_PGUP,
+        _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                              KC_DEL,  KC_HOME, KC_LEFT, KC_DOWN, KC_AUDIO_VOL_UP, KC_PGDN,
         _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                              XXXXXXX, KC_END,  KC_AUDIO_MUTE, KC_AUDIO_VOL_DOWN, LGUI(KC_D), _______,
                                             _______, _______, _______,            XXXXXXX, XXXXXXX, XXXXXXX
     )
