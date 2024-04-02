@@ -73,7 +73,7 @@ Anyway, all keys worked normally.
 ## Keymap
 After much thought, I created my own keymap.
 
-![picture/keymap.png](picture/keymap.png)
+![picture/keyboard-layout.png](picture/keyboard-layout.png)
 
 Top left - base layer (when holding, the key in parentheses)  
 Bottom left - Fn1 layer  
