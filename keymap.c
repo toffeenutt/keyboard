@@ -21,7 +21,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                              KC_DEL,  KC_HOME, KC_LEFT, KC_DOWN, KC_AUDIO_VOL_UP, KC_PGDN,
         _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                              KC_INS,  KC_END,  KC_AUDIO_MUTE, KC_AUDIO_VOL_DOWN, LGUI(KC_D), _______,
                                             _______, _______, _______,            XXXXXXX, XXXXXXX, XXXXXXX
-    )
+    ),
     [FUN] = LAYOUT_split_3x6_3(
        	XXXXXXX, XXXXXXX, KC_F7,   KC_F8,   KC_F9,   KC_F12,                               XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
         _______, XXXXXXX, KC_F4,   KC_F5,   KC_F6,   KC_F11,                               XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
