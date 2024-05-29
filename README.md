@@ -77,6 +77,7 @@ After much thought, I created my own keymap.
 
 Top left - base layer (when holding, the key in parentheses)  
 Bottom left - Fn1 layer  
-Bottom right - Fn2 layer
+Bottom right - Fn2 layer  
+Front left - Fn3 layer  
 
 But I haven't gotten used to it yet and it's very difficult to type.
