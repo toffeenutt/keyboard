@@ -1,11 +1,7 @@
 # My first split keyboard
-Canter keyboard making log
+[**Cantor keyboard**](https://github.com/diepala/cantor)(Classic) making log
 
-## Template
-It should be **easy to make** because I am chobo(noob).  
-So I selected [**cantor keyboard**](https://github.com/diepala/cantor)(Classic).
-
-These are the factors I took into consideration when choosing a template.
+## Feature
 1. Simple
 2. Diodeless
 3. Easy to build
@@ -26,7 +22,6 @@ These are the factors I took into consideration when choosing a template.
 
 ## Build
 I just followed [build guide](https://github.com/diepala/cantor/blob/main/doc/build_guide.md).  
-Actually, it wasn't difficult at all.  
 
 ![picture/back.jpg](picture/back.jpg)
 ![picture/left.jpg](picture/left.jpg)
@@ -51,17 +46,3 @@ And after some testing, I found out the following:
 - Firmware must be flashed on both controllers
 - When the left controller is connected to a computer, it operates with the keymap set in the left controller's firmware.
 - When the right controller is connected to a computer, it operates with the keymap set in the right controller's firmware.
-
-This means I need to flash the firmware on both devices, but applying different keymaps to both allow me to easily switch to a different key map by switching connections.  
-
-Anyway, all keys worked normally.  
-
-## Keymap
-After much thought, I created my own keymap.
-
-![picture/keyboard-layout.png](picture/keyboard-layout.png)
-
-Top left - base layer (when holding, the key in parentheses)  
-Bottom left - Fn1 layer  
-Bottom right - Fn2 layer  
-Front left - Fn3 layer  
