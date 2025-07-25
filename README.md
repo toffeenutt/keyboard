@@ -30,8 +30,8 @@ I just followed [build guide](https://github.com/diepala/cantor/blob/main/doc/bu
 I used an old mouse pad instead of a silicone bumper to prevent slipping.  
 
 ## Flash the firmware and test
+### WSL2
 I followed [qmk docs](https://docs.qmk.fm/#/newbs).  
-And I used wsl2.  
 
 For test, I built the firmware with the default keymap.  
 But, a problem arose during the process of flashing the firmware.  
@@ -41,6 +41,16 @@ The USB device connected to Windows could not be used in WSL.
 
 So, I found [how to use usb device connected to Windows in WSL](https://learn.microsoft.com/en-US/windows/wsl/connect-usb).  
 I succeeded in flashing the firmware on WSL using this method(usbipd-win).  
+
+### Ubuntu
+```
+sudo su
+source venv/bin/activate
+cd {keymap_dir}
+qmk compile
+qmk flash
+```
+
 
 And after some testing, I found out the following:  
 - Firmware must be flashed on both controllers
